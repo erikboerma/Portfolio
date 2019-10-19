@@ -6,10 +6,12 @@
     text-align: left;
     margin: auto;
   }
+
+
   .container {
       width: 75%;
       height: 600px;
-      background: #4aaaa5;
+      background: white;
       margin: auto;
       margin-top: 5%;
       border-radius: 10px;
@@ -31,13 +33,12 @@
     border-top-right-radius: 10px;
   }
   
-  
   #erik {
     float: left;
     padding: 0 10px;
     height: 60px;
     width: 30%;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
   }
   
   
@@ -73,14 +74,9 @@
   
   /* For the about me page   */
   
-  #aboutme {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    max-width: 960px;
-  }
+  
   
   #aboutmeTitle {
-    color: #4aaaa5;
     padding: 15px 15px;
     text-align: left;
   }
@@ -141,6 +137,10 @@
     width: 175px;
     height: 175px;
 }
+#gitHubLogo1 {
+  width: 100px;
+  height: 100px;
+}
 #resumeLogo {
     width: 200px;
     height: 175px;
@@ -188,13 +188,12 @@
   }
   
   /* For the footer on all 3 pages */
-  footer {
-    padding: 15px 0 0;
-    background: #666666;
+  .footer {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
     color: white;
-    font-size: 12px;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
+    margin: auto;
   }
   
   @media screen and (max-width: 980px) {
