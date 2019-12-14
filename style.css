@@ -1,302 +1,330 @@
 /* font-family: 'Mansalva', cursive; */
 
-
-* {
+/* * {
     box-sizing: inherit;
     text-align: left;
     margin: auto;
-  }
+  } */
+
+#erikIndex {
+  text-align: center;
+  font-family: "Rock Salt";
+  color: black;
+  font-size: 80px;
+  position: relative;
+  top: 38%;
+  border: 10px solid orange;
+  border-radius: 50%;
+  border-top: 100px;
+}
+
+#buttonIndex {
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+  color: orange;
+  background-color: black;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  border: 10px solid black;
+}
+
+#indexButtonLink:link,
+#indexButtonLink:hover,
+#indexButtonLink:active,
+#indexButtonLink:visited {
+  position: relative;
+  top: 1px;
+  color: orange;
+  text-decoration: none;
+}
 
 
-  .container {
-      width: 75%;
-      height: 600px;
-      background: white;
-      margin: auto;
-      margin-top: 5%;
-      border-radius: 10px;
-  }
-  body {
-    font-size: 24px;
-    line-height: 32px;
-    background: black;
-    color: #777777;
-    font-family: 'Mansalva', cursive;
-  }
-  /* For the header */
-  
-  #headsection {
-    background: white;
-    height: 60px;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  #erik {
-    float: left;
-    padding: 0 10px;
-    height: 60px;
-    width: 30%;
-    border-radius: 5px;
-  }
-  
-  
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  #middle {
-    width: 40%;
-    background-color: white;
-    float: right;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    width: 70%;
-    float: right;
-    position: fixed;
-  }
-  
-  li a {
-    display: block;
-    color: #777777;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    float: right;
-  }
-  
-  /* For the about me page   */
-  
-  
-  
-  #aboutmeTitle {
-    padding: 15px 15px;
-    text-align: left;
-  }
-  
-  #IMGaboutme {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    float: left;
-  }
-  #aboutmeDetails {
-    padding: 20px;
-  }
-  
-  /* for the contact info box */
-  .contactForm {
-    max-width: 960px;
-    font-size: 17px;
-    background-color: white;
-    border: 1px solid #dddddd;
-    max-width: 960px;
-  }
-  
-  form {
-    padding: 20px;
-  }
-  
-  input[type="text"],
-  select,
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type="submit"] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-  }
-  
-  /* for the portfolio table   */
-  
-  #linkedINlogo {
-      width: 225px;
-      height: 175px;
-  }
+.container {
+  width: 75%;
+  height: 600px;
+  background: white;
+  margin: 100px;
+  align-content: center;
+  border-radius: 25px;
+  display: inline-block;
+}
+body {
+  font-size: 24px;
+  line-height: 32px;
+  background: black;
+  color: #777777;
+  text-align: center;
+}
+/* For the header */
 
-  #gitHubLogo {
-    width: 175px;
-    height: 175px;
+#headsection {
+  background: teal;
+  height: 60px;
+  width: 100%;
+  /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+
+#erik {
+  float: left;
+  padding: 0 10px;
+  height: 60px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#middle {
+  width: 40%;
+  background-color: white;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 70%;
+  float: right;
+  position: fixed;
+}
+
+li a {
+  display: block;
+  color: #777777;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  float: right;
+}
+
+/* For the about me page   */
+
+#aboutmeTitle {
+  padding: 15px 15px;
+  text-align: left;
+}
+
+#IMGaboutme {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+}
+#aboutmeDetails {
+  padding: 20px;
+}
+
+/* for the contact info box */
+.contactForm {
+  max-width: 960px;
+  font-size: 17px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  max-width: 960px;
+}
+
+form {
+  padding: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type="submit"] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+}
+
+/* for the portfolio table   */
+
+#linkedINlogo {
+  width: 225px;
+  height: 175px;
+}
+
+#gitHubLogo {
+  width: 175px;
+  height: 175px;
 }
 #gitHubLogo1 {
   width: 100px;
   height: 100px;
 }
 #resumeLogo {
-    width: 200px;
-    height: 175px;
-} 
-  #main {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    max-width: 960px;
+  width: 200px;
+  height: 175px;
+}
+#main {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  max-width: 960px;
+  position: relative;
+}
+
+#portfolioTitle {
+  color: #4aaaa5;
+  padding: 15px 15px;
+  text-align: left;
+  bottom: 20px;
+}
+
+.row {
+  display: flex;
+  width: 65%;
+}
+
+.column {
+  width: 50%;
+}
+
+.content {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+}
+
+.portTitle {
+  background-color: #4aaaa5;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  width: 215px;
+  height: 30px;
+  text-align: center;
+  margin: -80px 0 0;
+}
+
+/* For the footer on all 3 pages */
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  color: white;
+  margin: auto;
+}
+
+@media screen and (max-width: 980px) {
+  .name {
+    width: 45%;
+  }
+
+  #headsize {
     position: relative;
   }
-  
-  #portfolioTitle {
-    color: #4aaaa5;
-    padding: 15px 15px;
-    text-align: left;
-    bottom: 20px;
-  }
-  
-  
-  .row {
-    display: flex;
-    width: 65%;
-  }
-  
-  .column {
-    width: 50%;
-  }
-  
-  
-  .content {
-    background-color: white;
-    width: 50%;
-    padding: 20px;
-  }
-  
-  .portTitle {
-    background-color: #4aaaa5;
-    position: absolute;
-    color: white;
-    font-size: 20px;
-    width: 215px;
-    height: 30px;
+  #erik {
     text-align: center;
-    margin: -80px 0 0;
   }
-  
-  /* For the footer on all 3 pages */
-  .footer {
-    position: absolute;
-    bottom: 0;
-    height: 40px;
-    color: white;
-    margin: auto;
+
+  #middle {
+    display: block;
   }
-  
-  @media screen and (max-width: 980px) {
-    .name {
-      width: 45%;
-    }
-  
-    #headsize {
-      position: relative;
-    }
-    #erik {
-      text-align: center;
-    }
-  
-    #middle {
-      display: block;
-    }
-  
-    .headerlist {
-      float: right;
-      width: 280px;
-    }
-  
-    #aboutme {
-      margin: 10% 0;
-    }
-  
-    #IMGaboutme {
-      float: none;
-    }
+
+  .headerlist {
+    float: right;
+    width: 280px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .name {
-      width: 45%;
-    }
-  
-    #headsize {
-      position: relative;
-    }
-    #erik {
-      text-align: center;
-    }
-  
-    #middle {
-      display: block;
-    }
-  
-    .headerlist {
-      float: right;
-      width: 280px;
-    }
-  
-    #aboutme {
-      margin: 10% 0;
-    }
-  
-    #IMGaboutme {
-      float: none;
-    }
-  
-    #main {
-      margin: 0% 2%;
-    }
-  
-    .row {
-      width: 75%;
-    }
+
+  #aboutme {
+    margin: 10% 0;
   }
-  
-  @media screen and (max-width: 640px) {
-    /* about me page */
-    .name {
-      float: none;
-      width: 100%;
-    }
-  
-    #erik {
-      text-align: center;
-    }
-  
-    #middle {
-      display: none;
-    }
-  
-    .headerlist {
-      float: none;
-      width: 100%;
-    }
-  
-    #aboutme {
-      margin: 10% 0;
-    }
-  
-    #IMGaboutme {
-      float: none;
-    }
-    .row {
-      display: block;
-    }
-  
-    #main {
-      margin: 10% 2%;
-    }
+
+  #IMGaboutme {
+    float: none;
   }
-  
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    width: 45%;
+  }
+
+  #headsize {
+    position: relative;
+  }
+  #erik {
+    text-align: center;
+  }
+
+  #middle {
+    display: block;
+  }
+
+  .headerlist {
+    float: right;
+    width: 280px;
+  }
+
+  #aboutme {
+    margin: 10% 0;
+  }
+
+  #IMGaboutme {
+    float: none;
+  }
+
+  #main {
+    margin: 0% 2%;
+  }
+
+  .row {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* about me page */
+  .name {
+    float: none;
+    width: 100%;
+  }
+
+  #erik {
+    text-align: center;
+  }
+
+  #middle {
+    display: none;
+  }
+
+  .headerlist {
+    float: none;
+    width: 100%;
+  }
+
+  #aboutme {
+    margin: 10% 0;
+  }
+
+  #IMGaboutme {
+    float: none;
+  }
+  .row {
+    display: block;
+  }
+
+  #main {
+    margin: 10% 2%;
+  }
+}
