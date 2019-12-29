@@ -6,50 +6,49 @@
     margin: auto;
   } */
 
-
 /* for the index page  */
-  #erikIndex {
-    text-align: center;
-    font-family: "Rock Salt";
-    color: black;
-    font-size: 80px;
-    position: relative;
-    top: 38%;
-    border: 10px solid orange;
-    border-radius: 50%;
-    border-top: 100px;
-  }
-  
-  #buttonIndex {
-    text-align: center;
-    font-family: "Rock Salt", cursive;
-    color: orange;
-    background-color: black;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border: 10px solid black;
-  }
-  
-  #indexButtonLink:link,
-  #indexButtonLink:hover,
-  #indexButtonLink:active,
-  #indexButtonLink:visited {
-    position: relative;
-    top: 1px;
-    color: orange;
-    text-decoration: none;
-  }
-  
-  #containerIndex {
-    width: 75%;
-    height: 600px;
-    background: lightgrey;
-    margin: 100px;
-    align-content: center;
-    border-radius: 25px;
-    display: inline-block;
-  }
+#erikIndex {
+  text-align: center;
+  font-family: "Rock Salt";
+  color: black;
+  font-size: 80px;
+  position: relative;
+  top: 38%;
+  border: 10px solid orange;
+  border-radius: 50%;
+  border-top: 100px;
+}
+
+#buttonIndex {
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+  color: orange;
+  background-color: black;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 10px solid black;
+}
+
+#indexButtonLink:link,
+#indexButtonLink:hover,
+#indexButtonLink:active,
+#indexButtonLink:visited {
+  position: relative;
+  top: 1px;
+  color: orange;
+  text-decoration: none;
+}
+
+#containerIndex {
+  width: 75%;
+  height: 600px;
+  background: lightgrey;
+  margin: 100px;
+  align-content: center;
+  border-radius: 25px;
+  display: inline-block;
+}
 
 /* all pages other than landing page container  */
 .container {
@@ -60,12 +59,15 @@
   align-content: center;
   border-radius: 25px;
   display: inline-block;
+  overflow: scroll;
 }
 
 body {
   font-size: 24px;
   line-height: 32px;
-  background: black;
+  /* background: black; */
+  background-image: url("./files/phillySkyline.jpg");
+  background-size: cover;
   color: #777777;
   text-align: center;
 }
@@ -85,7 +87,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: white;
-   
 }
 
 li a {
@@ -98,7 +99,6 @@ li a {
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-radius: 10px 10px 0px 0px;
-  
 }
 
 #index {
@@ -122,17 +122,17 @@ li a {
   padding: 20px;
 }
 
-#techDetails{
+#techDetails {
   width: 75%;
   display: flex;
   justify-content: space-between;
 }
 #techContainer {
-align-items: inherit;
+  align-items: inherit;
 }
 
 #stackContainer {
-align-items: inherit;
+  align-items: inherit;
 }
 
 /* for the portfolio table   */
@@ -167,6 +167,9 @@ align-items: inherit;
   justify-content: space-around;
 }
 /* for the github page  */
+.portfolioContainer {
+  overflow: scroll;
+}
 #gitHub {
   display: flex;
   flex-direction: row;
@@ -176,19 +179,16 @@ align-items: inherit;
 .gitProjectBox {
   flex-direction: row;
   justify-content: center;
+  width: 300px;
 }
 /* for the contact info box */
-.contactForm {
-  max-width: 960px;
-  font-size: 17px;
-  background-color: white;
-  border: 1px solid #dddddd;
-  max-width: 960px;
+form {
+  font-family: "Rock Salt", cursive;
+  text-align: left;
+  color: black;
+  height: 60%;
 }
 
-form {
-  padding: 20px;
-}
 
 input[type="text"],
 select,
@@ -207,19 +207,18 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4aaaa5;
-  color: white;
-  padding: 12px 20px;
+  font-family: "Rock Salt";
+  position: relative;
+  top: 1px;
+  color: orange;
+  text-decoration: none;
 }
-
 
 /* For the footer on all 3 pages */
 footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
   height: 40px;
   color: green;
   margin: auto;
 }
-
-
