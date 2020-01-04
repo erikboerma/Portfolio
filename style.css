@@ -19,13 +19,17 @@
   border-top: 100px;
 }
 
+#logoImage {
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
 #buttonIndex {
   text-align: center;
   font-family: "Rock Salt", cursive;
   color: orange;
   background-color: black;
-  margin-top: 60px;
-  margin-bottom: 10px;
   border-radius: 10px;
   border: 10px solid black;
 }
@@ -43,7 +47,7 @@
 #containerIndex {
   width: 75%;
   height: 600px;
-  background: lightgrey;
+  /* background: lightgrey; */
   margin: 100px;
   align-content: center;
   border-radius: 25px;
@@ -104,6 +108,8 @@ li a {
 #index {
   border-right: 1px solid black;
 }
+
+
 
 /* For the about me page   */
 
@@ -183,17 +189,20 @@ li a {
 }
 /* for the contact info box */
 form {
-  font-family: "Rock Salt", cursive;
+  font-family: "Rock Salt";
   text-align: left;
   color: black;
   height: 60%;
 }
-
+#contactRow {
+  display: flex;
+  justify-content: space-around;
+}
 
 input[type="text"],
 select,
 textarea {
-  width: 100%;
+  width: 500px;
   padding: 12px;
   border: 1px solid #dddddd;
   border-radius: 4px;
@@ -203,7 +212,7 @@ textarea {
 }
 
 textarea {
-  height: 200px;
+  height: 100px;
 }
 
 input[type="submit"] {
