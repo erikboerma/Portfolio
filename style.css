@@ -1,13 +1,6 @@
-/* font-family: 'Mansalva', cursive; */
-
-/* * {
-    box-sizing: inherit;
-    text-align: left;
-    margin: auto;
-  } */
 
 /* for the index page  */
-#erikIndex {
+/* #erikIndex {
   text-align: center;
   font-family: "Rock Salt";
   color: black;
@@ -17,7 +10,7 @@
   border: 10px solid orange;
   border-radius: 50%;
   border-top: 100px;
-}
+} */
 
 #logoImage {
   height: 500px;
@@ -31,7 +24,10 @@
   color: orange;
   background-color: black;
   border-radius: 10px;
-  border: 10px solid black;
+  border: 2px dotted orange;
+  width: 200px;
+  height: 50px;
+
 }
 
 #indexButtonLink:link,
@@ -45,9 +41,8 @@
 }
 
 #containerIndex {
-  width: 75%;
-  height: 600px;
-  /* background: lightgrey; */
+  /* width: 75%;
+  height: 600px; */
   margin: 100px;
   align-content: center;
   border-radius: 25px;
@@ -57,11 +52,11 @@
 /* all pages other than landing page container  */
 .container {
   width: 75%;
-  height: 600px;
+  height: 650px;
   background: white;
   margin: 100px;
   align-content: center;
-  border-radius: 25px;
+  border-radius: 5px;
   display: inline-block;
   overflow: scroll;
 }
@@ -69,8 +64,7 @@
 body {
   font-size: 24px;
   line-height: 32px;
-  /* background: black; */
-  background-image: url("./files/phillySkyline.jpg");
+  background-image: url("./files/phillySkyline2.jpg");
   background-size: cover;
   color: #777777;
   text-align: center;
@@ -81,8 +75,8 @@ body {
   background: white;
   height: 60px;
   width: 70%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
 }
 
 ul {
@@ -100,14 +94,13 @@ li a {
   text-decoration: none;
   font-size: 18px;
   float: left;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-radius: 10px 10px 0px 0px;
+  border-right: 1px solid black;
+  border-radius: 10px 0px;
 }
 
-#index {
+/* #contact {
   border-right: 1px solid black;
-}
+} */
 
 
 
@@ -203,16 +196,16 @@ input[type="text"],
 select,
 textarea {
   width: 500px;
-  padding: 12px;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
 }
 
+label {
+  font-size: 25px;
+}
+#contactFont {
+  font-family: "Rock Salt";
+}
 textarea {
-  height: 100px;
+  height: 75px;
 }
 
 input[type="submit"] {
@@ -228,6 +221,6 @@ footer {
   position: fixed;
   bottom: 0;
   height: 40px;
-  color: green;
+  color: orange;
   margin: auto;
 }
