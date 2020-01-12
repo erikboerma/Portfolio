@@ -39,8 +39,6 @@
 }
 
 #containerIndex {
-  /* width: 75%;
-  height: 600px; */
   margin: 100px;
   align-content: center;
   border-radius: 25px;
@@ -52,6 +50,7 @@
   width: 75%;
   height: 650px;
   background: white;
+  opacity: 95%;
   margin: 100px;
   align-content: center;
   border-radius: 5px;
@@ -62,10 +61,11 @@
 body {
   font-size: 24px;
   line-height: 32px;
-  background-image: url("./files/phillySkyline2.jpg");
+  background-image: url("files/phillySkyline2.jpg");
   background-size: cover;
   color: #777777;
   text-align: center;
+  overflow: hidden;
 }
 /* For the header */
 
@@ -128,6 +128,10 @@ li a {
 
 #stackContainer {
   align-items: inherit;
+}
+
+#techLogo {
+  width: 200px;
 }
 
 /* for the portfolio table   */
@@ -213,8 +217,11 @@ textarea {
   width: 500px;
 }
 
-label {
-  font-size: 25px;
+label,
+.pure-group {
+  font-family: "Rock Salt";
+  font-size: 20px;
+  line-height: 1;
 }
 #contactFont {
   font-family: "Rock Salt";
