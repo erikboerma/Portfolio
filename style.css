@@ -175,7 +175,26 @@ li a {
   flex-direction: row;
   justify-content: center;
   width: 300px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
+
+.gitProjectPhoto,
+.gitProjectImages {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 150px;
+}
+
+.gitProjectText {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1;
+}
+
 /* for the contact info box */
 form {
   font-family: "Rock Salt";
