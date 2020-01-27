@@ -115,6 +115,8 @@ li a {
 }
 #aboutmeDetails {
   padding: 20px;
+  font-family: "Rock Salt";
+  font-size: 18px;
 }
 
 #techDetails {
